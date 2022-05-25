@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (i == 10)
 		{
-			i + 97;
+			i = 97;
 		}
 		if (i >= 97)
 		{
