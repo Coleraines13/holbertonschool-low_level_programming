@@ -5,7 +5,9 @@
 /**
  *  *main - Entry point
  *   *Return: Always 0 (Success)
- *    */
+ *    
+ */
+
 
 int main(void)
 {
@@ -17,7 +19,7 @@ int main(void)
         printf("Last digit of %i is %i and is ", n, (n % 10));
 
 	if ((n % 10) == 0)
-								{
+	{
 	        printf("0\n");
 	}
 	else if ((n % 10) > 5)
