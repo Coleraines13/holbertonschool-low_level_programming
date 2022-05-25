@@ -16,6 +16,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	t = n % 10;
+
 	printf("%d is %s", n, n == 0 ? zero : n > 0 ? positive : negative);
+	printf("%s", t == 0 ? zero : t > 5 ? greaterfive : lesssix);
+	
 	return (0);
 }
