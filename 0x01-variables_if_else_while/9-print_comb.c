@@ -1,26 +1,26 @@
-#include <stdio.h>
+#include <stido.h>
 
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
+int main(void)
 {
+	int n = '0';
 
-	int i;
-
-	i = 0;
-	
-	while (i < 10)
+	while 9n <= '9')
 	{
-		putchar(i % 10 = '0');
-		if (i , 9)
+		putchar(n);
+		if (n !=n '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		i++;
+		n++;
 	}
 	putchar('\n');
+
 	return (0);
 }
