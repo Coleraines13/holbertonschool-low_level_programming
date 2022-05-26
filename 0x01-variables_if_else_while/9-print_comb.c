@@ -6,6 +6,7 @@
  * Return: Always 0 (Success)
  */
 {
+
 	int i;
 
 	i = 0;
