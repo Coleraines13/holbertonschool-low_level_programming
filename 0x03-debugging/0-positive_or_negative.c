@@ -7,20 +7,14 @@
  *   *
  *    * Return: Always 0 (Success)
  *     */
-int main(void)
+void positive_or_negative(int i)
 {
-		int n;
-		int t;
-		char *positive = "and is greater than 5\n";
-		char *negative = "and is less than 8 and not 0\n";
-		char *zero = "and is 0\n";
+		
+		char *positive = "is positive \n";
+		char *negative = "is negative \n";
+		char *zero = "zero is 0\n";	
+		
 
-		srand(time(0));
-		n = rand() - RAND_MAX / 2;	
-		t = n % 10;
-
-		printf("Last digit of %d is %d", n, t);
-	        printf("%s", t == 0 ? zero : t > 5 ? greaterfive : lesssix);
-												
-		return (0);
+		printf("%d ", i);
+	        printf("%s", i == 0 ? zero : i > 0 ? positive : negative);
 }
