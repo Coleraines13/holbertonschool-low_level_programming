@@ -2,7 +2,7 @@
 
 /**
  * prints the alpha best 1 time
- * this write the alphabet a to z
+\* this write the alphabet a to z*\
  * Return: void
  */
 
