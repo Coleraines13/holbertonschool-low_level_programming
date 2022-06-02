@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * prints the alpha best 1 time
-\* this write the alphabet a to z*\
+ * print_alphabet - prints alphabet 1 time from a to z
+ *
  * Return: void
  */
 
