@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _puts - this prints a string
+ * _puts - this prints a string to the standered output
  * @str: pointer with the address value
  *
  * Return: void
