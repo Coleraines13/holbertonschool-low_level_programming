@@ -1,21 +1,34 @@
 #include "main.h"
 
 /**
- * puts_half - main function.
- * @str: Pointer, the string of numbers to print.
- * Description: This function prints half of a string.
- * Return: none.
+ * this prints a string in reverse 
+ * puts_half - rev string
+ * @str: to be reversed
+ *    
+ * Return: void
  */
 void puts_half(char *str)
 {
-	int i;
+	int i, j;
 
-	for (i = 0; str[i] != '\0'; i++);
-
-	i++;
-	for (i /= 2; str [i] != '\0'; i++)
+	i = 0;
+	while (str[i])
 	{
-		_putchar(str[i]);
+		i++;
+	}
+
+	j = i / 2;
+
+	if (i % 2)
+	{
+		j += 1;
+	}
+	while (j < i)
+	{
+		_putchar(str[j]);
+		j++;
 	}
 	_putchar('\n');
 }
+
+
