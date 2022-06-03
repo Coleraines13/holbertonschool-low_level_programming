@@ -2,19 +2,22 @@
 
 /**
  * *_strcpy - copies string pointed to by src
- * @dest: char type string
- * @src: char type string
+ * @dest: pointer
+ * @src: pointer
  * Return: pointer to 'dest'
  */
+
 char *_strcpy(char *dest, char *src)
 {
-	int i = -i;
+	int i, length;
 
-	do {
-		i++;
+	for (length = 0; src[length] != '\0'; length++)
+	{
+	}
+
+	for (i = 0; i <= length ; i++)
+	{
 		dest[i] = src[i];
 	}
-	while (src[i] ! = '\0');
-
-	return(dest);
+	return (dest);
 }
