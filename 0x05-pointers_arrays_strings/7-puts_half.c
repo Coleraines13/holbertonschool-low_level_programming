@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * Description: this prints half of a string
- * puts_half - rev string
+ * 
+ * puts_half - prints half a string
  * @str: to be reversed
  *
  * Return: void
