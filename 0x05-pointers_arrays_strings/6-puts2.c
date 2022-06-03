@@ -5,7 +5,7 @@
  * puts2 - this function prints every other character of a string
  * (Divisible by two)
  *@str: pointer, the string to print
- *    
+ *
  * Return: void
  */
 void puts2(char *str)
