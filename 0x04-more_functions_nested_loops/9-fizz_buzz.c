@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *  * main - Entry point
- *   * Description: Classic FizzBuzz problem
- *    * Return: Always 0, Success!
- *     */
+ * main - Entry point
+ * Description: Fizzbuzz sounds like a soda 
+ * Return: Always 0, Success!
+ */
 int main(void)
 {
 	int i;
