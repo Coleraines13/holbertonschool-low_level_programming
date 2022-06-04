@@ -1,4 +1,4 @@
-#include "bootcamp.h"
+#include "main.h"
 
 /**
  *  * print_diagonal - prints n length line
