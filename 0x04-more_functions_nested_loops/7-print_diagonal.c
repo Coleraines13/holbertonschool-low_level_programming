@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *  * print_diagonal - prints n length line
- *   * @n: length of diagonal line
- *    *
- *     * Return: void
- *      */
+ *print_diagonal - prints n length line
+ *@n: length of diagonal line
+ *
+ * Return: void
+ */
 void print_diagonal(int n)
 {
 	int i, n2 = n;
