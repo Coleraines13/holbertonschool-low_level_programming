@@ -1,29 +1,24 @@
-#include "main.h"
+#include "bootcamp.h"
 
 /**
- * print_digonal - draws a diagonal line on the terminal
- * @n: number of times the character \ should be printed
- */
+ *  * print_diagonal - prints n length line
+ *   * @n: length of diagonal line
+ *    *
+ *     * Return: void
+ *      */
 void print_diagonal(int n)
 {
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
-	else
-	{
-		int i, j;
+	int i, n2 = n;
 
-		for (i = 0; j < n; j++)
+	if (n < 1)
+		_putchar('\n');
+	for (; n2 > 0; n2--)
+	{
+		for (i = n - n2; i > 0; i--)
 		{
-			for (j = 0; j < n; j++)
-			{
-				if (j == i)
-					_putchar('\\');
-				else if (j < i)
-					_putchar(' ');
-			}
-			_putchar('\n');
+			_putchar(' ');
 		}
+			_putchar('\\');
+			_putchar('\n');
 	}
 }
