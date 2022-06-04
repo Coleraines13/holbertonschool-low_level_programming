@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: Fizzbuzz sounds like a soda 
+ * Description: Fizzbuzz sounds like a soda
  * Return: Always 0, Success!
  */
 int main(void)
