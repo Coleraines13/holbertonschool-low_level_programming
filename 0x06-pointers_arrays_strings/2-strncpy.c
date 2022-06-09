@@ -2,9 +2,7 @@
 
 /**
  * main - copys a string
- * @dest: the destination value
- * @scr: the sorce vaule
- * @n: the copy limit
+ * 
  * Return: char value
  */
 
