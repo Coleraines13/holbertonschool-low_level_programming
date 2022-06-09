@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strncpy - copys a string
+ * main - copys a string
  * @dest: the destination value
  * @scr: the sorce vaule
  * @n: the copy limit
