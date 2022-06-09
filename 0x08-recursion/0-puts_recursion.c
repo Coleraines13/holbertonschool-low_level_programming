@@ -3,8 +3,9 @@
 /**
  * _puts_recursion - prints string using recursion
  * @s: input string
- * Return: void
+ * Return: in success 1
  */
+
 void _puts_recursion(char *s)
 {
 	if (*s == 0)
