@@ -13,5 +13,5 @@ int _put_recursion(int x, int y)
 		return (x >= 0 ? 1 : -1);
 	if (y == 1)
 		return (x);
-	return (x * _pow_recursion(x, y - 1) * (x < 0 ? -1 : 1));
+	return (x * _put_recursion(x, y - 1) * (x < 0 ? -1 : 1));
 }
