@@ -19,7 +19,6 @@ char *create_array(unsigned int size, char c)
 	if (size == 0)
 		return (NULL);
 
-/* returns a pointer to the allocated memory */
 	pArray = malloc(size * sizeof(char));
 
 	if (pArray == NULL)
