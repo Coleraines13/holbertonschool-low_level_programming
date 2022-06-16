@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 /**
- * create_array - this creates an array of chars and intiazies with a specific char
+ * create_array - this creates an array of chars 
+ * and intiazies with a specific char
  *
  * @c: array of chars
  * @size: the size of the memory to print
