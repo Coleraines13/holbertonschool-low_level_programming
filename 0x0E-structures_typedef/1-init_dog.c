@@ -1,7 +1,7 @@
 #include "dog.h"
 
 
-/** 
+/**
  * init_dog - program startup
  * @d: struct being evaluated
  * @name: first char being evaluated
@@ -11,7 +11,7 @@
  * Return (0)
  */
 
-void init_dog(struct dog *d ,char *name, float age, char *owner)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d != NULL)
 	{

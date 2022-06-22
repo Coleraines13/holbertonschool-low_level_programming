@@ -3,7 +3,7 @@
  * print_dog - program startup
  * @d: struct being evaluated
  *
- * 
+ *
  * Return: return (0) is the required function signature
  */
 
