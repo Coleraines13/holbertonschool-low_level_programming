@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- *
+ * array_iterator - program startup
  * @array: int beuing evaluated
  * @size: type being evaluated
  * @action: function being evaluated
