@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
 	if (close(fileFrom) == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", argv[1]);
-		exit(100); i }
+		exit(100); }
 	if (close(fileTo) == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", argv[2]);
