@@ -4,7 +4,7 @@
  * @ht: hastable
  * @key: key of bucket
  * @value: value of bucket
- * Return: 1 if it succeded 
+ * Return: 1 if it succeded
  */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
