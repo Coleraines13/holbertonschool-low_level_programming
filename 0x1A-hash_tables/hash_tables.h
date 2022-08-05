@@ -9,7 +9,7 @@
  * struct hash_node_s - node of a hash table
  * @key: the key
  * @value: the value corrisponding to the key
- * @next a pointer to the next node
+ * @next: a pointer to the next node
  */
 typedef struct hash_node_s
 {
