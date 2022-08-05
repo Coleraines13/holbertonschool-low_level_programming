@@ -19,5 +19,5 @@ void hash_table_print(const hash_table_t *ht)
 		if (head[i] != NULL)
 			printf("'%s': '%s', ", head[i]->key, head[i]->value);
 	}
-	printf("}\n");
+	printf("}");
 }
